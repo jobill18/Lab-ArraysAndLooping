@@ -39,7 +39,7 @@ function addItem(inputArray, num) {
 // Inside the function below, remove the last item of inputArray.
 
 function removeLast(inputArray) {
-  //Code here
+  inputArray.pop()
   return inputArray;
 }
 
@@ -48,7 +48,7 @@ function removeLast(inputArray) {
 // Inside the function below, remove the first item of inputArray.
 
 function removeFirst(inputArray) {
-  //Code here
+  inputArray.shift()
   return inputArray;
 }
 
@@ -58,7 +58,10 @@ function removeFirst(inputArray) {
 // You can assume the array will be at least 2 items long.
 
 function replaceFirstAndLast(inputArray) {
-  //Code here
+  inputArray.shift();
+  inputArray.unshift(42);
+  inputArray.pop();
+  inputArray.push(42);
   return inputArray;
 }
 
