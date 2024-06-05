@@ -3,7 +3,7 @@
 // Inside the function below, set firstItem to the first item of the input array called 'inputArray'.
 
 function first(inputArray) {
-  //Code here
+  let firstItem = inputArray[0]
   return firstItem;
 }
 
@@ -12,7 +12,7 @@ function first(inputArray) {
 // Inside the function below, set arrayLength to the length of inputArray.
 
 function getLength(inputArray) {
-  //Code here
+  let arrayLength = 
   return arrayLength;
 }
 
