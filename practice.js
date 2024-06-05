@@ -149,9 +149,17 @@ function backwards(inputArray) {
 // findInArray([0,1,2,3], 4); -> false
 
 function findInArray(inputArray, value) {
-  // Code here
+  for (input of inputArray){
+    if(input === value){
+      valueFound = true
+      } else {
+        valueFound = false
+      }
+    }
+  
   return valueFound;
 }
+
 
 //////////////////PROBLEM 14////////////////////
 
@@ -163,7 +171,13 @@ function findInArray(inputArray, value) {
 
 function stopAtNegative(inputArray) {
   let newArray = [];
-  // Code here
+  for (input of inputArray){
+    if(input < 0){
+      break;
+    } else {
+      newArray.push(input);
+    }
+  }
 
   return newArray;
 }
