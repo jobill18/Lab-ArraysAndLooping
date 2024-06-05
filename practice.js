@@ -12,8 +12,8 @@ function first(inputArray) {
 // Inside the function below, set arrayLength to the length of inputArray.
 
 function getLength(inputArray) {
-  let arrayLength = 
-  return arrayLength;
+let arrayLength = inputArray.length
+return arrayLength;
 }
 
 //////////////////PROBLEM 3////////////////////
