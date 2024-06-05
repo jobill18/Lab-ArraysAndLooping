@@ -75,7 +75,9 @@ function replaceFirstAndLast(inputArray) {
 
 function addTen(inputArray) {
   let newArr = [];
-  // Code here
+  for(input of inputArray){
+    newArr.push(input + 10);
+  }
 
   return newArr;
 }
@@ -86,7 +88,9 @@ function addTen(inputArray) {
 
 function count31() {
   let numbers = [];
-  // Code here
+  for (let i = 0; i <= 31; i++){
+    numbers.push(i)
+  }
 
   return numbers;
 }
